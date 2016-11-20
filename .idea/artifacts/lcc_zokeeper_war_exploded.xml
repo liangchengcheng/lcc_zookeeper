@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="lcc_zokeeper:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/lcc_zokeeper_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="lcc_zokeeper/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="lcc_zokeeper" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
