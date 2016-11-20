@@ -3,6 +3,7 @@ package com.lcc.util;
 import lombok.extern.slf4j.Slf4j;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+
 /**
  * Created by lcc on 2016/11/20.
  */
