@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d514085b-1932-4816-9b13-0bd733b0df74" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lcc/util/ClassUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lcc/util/CookieUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lcc/util/HashUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/lcc/util/HashUtil.java" />
     </list>
     <ignored path="lcc_zokeeper.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,15 +26,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClassUtil.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lcc/util/ClassUtil.java">
+      <file leaf-file-name="CookieUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lcc/util/CookieUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1830">
-              <caret line="122" column="5" selection-start-line="122" selection-start-column="5" selection-end-line="122" selection-end-column="5" />
+            <state relative-caret-position="285">
+              <caret line="108" column="4" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1835#1836#0" expanded="true" />
-                <element signature="e#1892#1893#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,6 +67,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lcc/util/HashUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lcc/util/BeanValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lcc/util/ClassUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lcc/util/CookieUtil.java" />
       </list>
     </option>
   </component>
@@ -88,8 +85,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="468" />
-    <option name="y" value="22" />
+    <option name="x" value="735" />
+    <option name="y" value="45" />
     <option name="width" value="1267" />
     <option name="height" value="714" />
   </component>
@@ -568,15 +565,15 @@
       <updated>1479627511037</updated>
       <workItem from="1479627512580" duration="640000" />
       <workItem from="1479637169072" duration="2783000" />
-      <workItem from="1479684367960" duration="834000" />
+      <workItem from="1479684367960" duration="2367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4257000" />
+    <option name="totallyTimeSpent" value="5790000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="468" y="22" width="1267" height="714" extended-state="0" />
+    <frame x="735" y="45" width="1267" height="714" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -765,12 +762,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lcc/util/ClassUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1830">
-          <caret line="122" column="5" selection-start-line="122" selection-start-column="5" selection-end-line="122" selection-end-column="5" />
+        <state relative-caret-position="195">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1835#1836#0" expanded="true" />
             <element signature="e#1892#1893#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcc/util/CookieUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="108" column="4" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
