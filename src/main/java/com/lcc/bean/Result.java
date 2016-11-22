@@ -10,8 +10,7 @@ import lombok.ToString;
 import java.util.HashMap;
 import java.util.Map;
 
-@Getter
-@Setter
+
 @ToString
 public class Result {
 
@@ -32,6 +31,22 @@ public class Result {
 
     public Result(boolean ret,String msg){
         this.ret = ret;
+        this.msg = msg;
+    }
+
+    public boolean isRet() {
+        return ret;
+    }
+
+    public void setRet(boolean ret) {
+        this.ret = ret;
+    }
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public void setMsg(String msg) {
         this.msg = msg;
     }
 
