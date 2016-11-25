@@ -4,6 +4,9 @@ import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.ListeningExecutorService;
 import com.google.common.util.concurrent.MoreExecutors;
+import com.lcc.config.GlobalConfig;
+import com.lcc.config.GlobalConfigKey;
+import com.lcc.http.ext.AuthSSLInitializationError;
 import org.apache.commons.httpclient.HttpMethodBase;
 
 import java.util.concurrent.Callable;

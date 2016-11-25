@@ -1,9 +1,7 @@
 package com.lcc.http;
 
-
 import com.google.common.util.concurrent.FutureCallback;
-
-import javax.xml.ws.ResponseWrapper;
+import com.lcc.http.ext.AuthSSLInitializationError;
 
 /**
  * http回调接口

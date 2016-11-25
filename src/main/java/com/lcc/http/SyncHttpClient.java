@@ -1,8 +1,8 @@
 package com.lcc.http;
 
 import com.google.common.util.concurrent.ListenableFuture;
+import com.lcc.http.ext.AuthSSLInitializationError;
 import org.apache.commons.httpclient.HttpMethodBase;
-
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Strings.isNullOrEmpty;
 

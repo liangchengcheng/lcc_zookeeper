@@ -5,6 +5,10 @@ import com.google.common.base.Throwables;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.google.common.util.concurrent.ListenableFuture;
+import com.lcc.config.GlobalConfig;
+import com.lcc.config.GlobalConfigKey;
+import com.lcc.http.ext.AuthSSLProtocolSocketFactory;
+import com.lcc.http.ext.EasySSLProtocolSocketFactory;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.httpclient.Header;
 import org.apache.commons.httpclient.HostConfiguration;
@@ -398,7 +402,7 @@ public abstract class AbstractHttpClient {
 
             return true;
         }
-        log.info("未设定trust store和keystroe，将按照默认证书校验处理");
+        //log.info("未设定trust store和keystroe，将按照默认证书校验处理");
         return false;
     }
 
